@@ -24,9 +24,12 @@ namespace CosmicCuration.VFX
                 {
                     item.particleSystem.gameObject.SetActive(true);
                     currentPlayingVFX = item.particleSystem;
+                    currentPlayingVFX.Play();
                 }
                 else
+                {
                     item.particleSystem.gameObject.SetActive(false);
+                }
             }
         }
 
@@ -40,6 +43,7 @@ namespace CosmicCuration.VFX
                     currentPlayingVFX = null;
                     controller.OnParticleEffectCompleted();
                     gameObject.SetActive(false);
+                    Debug.Log("asd");
                 }
             }
         }
