@@ -43,7 +43,6 @@ namespace CosmicCuration.VFX
                     currentPlayingVFX = null;
                     controller.OnParticleEffectCompleted();
                     gameObject.SetActive(false);
-                    Debug.Log("asd");
                 }
             }
         }
