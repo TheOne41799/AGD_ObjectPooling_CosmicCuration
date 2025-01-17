@@ -38,7 +38,6 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1037,6 +1036,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
   m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
   m_SortingOrder: 0
@@ -2289,6 +2289,12 @@ PrefabInstance:
       propertyPath: uiService
       value: 
       objectReference: {fileID: 1030558812}
+    - target: {fileID: 1364658040279970260, guid: 059d6c966602d204f8b1f0c5d6dff02d,
+        type: 3}
+      propertyPath: vfxPrefab
+      value: 
+      objectReference: {fileID: 2674352075565639642, guid: c68733eb7fedaae4299ec0fea2f96c42,
+        type: 3}
     - target: {fileID: 1364658040279970260, guid: 059d6c966602d204f8b1f0c5d6dff02d,
         type: 3}
       propertyPath: audioEffectSource
